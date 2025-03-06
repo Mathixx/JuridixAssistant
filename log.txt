@@ -1,0 +1,28 @@
+Loading and chunking the dataset...
+Total sentences found: 5879
+Total chunks created: 2939
+Train dataset length: 2351
+Validation dataset length: 588
+Base model loaded
+LoRA adaptation applied
+trainable params: 1,179,648 || all params: 1,066,493,952 || trainable%: 0.1106
+Model size: 4068.35 MB (3.97 GB)
+CUDA MEMORY has been freed
+Model loaded on device: cuda
+trainable params: 1,179,648 || all params: 1,066,493,952 || trainable%: 0.1106
+{'loss': 2.9093, 'grad_norm': 0.23355665802955627, 'learning_rate': 9.319727891156464e-06, 'epoch': 0.34}
+{'loss': 2.8626, 'grad_norm': 3.524932384490967, 'learning_rate': 8.646258503401361e-06, 'epoch': 0.68}
+{'loss': 2.77, 'grad_norm': 0.3886730670928955, 'learning_rate': 7.965986394557825e-06, 'epoch': 1.02}
+{'loss': 2.7162, 'grad_norm': 1.926797866821289, 'learning_rate': 7.285714285714286e-06, 'epoch': 1.36}
+{'loss': 2.6571, 'grad_norm': 0.37543004751205444, 'learning_rate': 6.605442176870749e-06, 'epoch': 1.7}
+{'loss': 2.6393, 'grad_norm': 0.4762524664402008, 'learning_rate': 5.925170068027212e-06, 'epoch': 2.04}
+{'loss': 2.5982, 'grad_norm': 0.432188481092453, 'learning_rate': 5.2448979591836735e-06, 'epoch': 2.38}
+{'loss': 2.5974, 'grad_norm': 11.360849380493164, 'learning_rate': 4.564625850340136e-06, 'epoch': 2.72}
+{'loss': 2.5883, 'grad_norm': 0.5310224294662476, 'learning_rate': 3.884353741496599e-06, 'epoch': 3.06}
+{'loss': 2.5663, 'grad_norm': 6.543773174285889, 'learning_rate': 3.210884353741497e-06, 'epoch': 3.4}
+{'loss': 2.5602, 'grad_norm': 0.5770918130874634, 'learning_rate': 2.530612244897959e-06, 'epoch': 3.74}
+{'loss': 2.5624, 'grad_norm': 0.5462316274642944, 'learning_rate': 1.8503401360544219e-06, 'epoch': 4.08}
+{'loss': 2.5536, 'grad_norm': 0.5891745686531067, 'learning_rate': 1.1700680272108845e-06, 'epoch': 4.42}
+{'loss': 2.5493, 'grad_norm': 0.6001041531562805, 'learning_rate': 4.897959183673469e-07, 'epoch': 4.76}
+{'train_runtime': 241.8932, 'train_samples_per_second': 48.596, 'train_steps_per_second': 6.077, 'train_loss': 2.6471392261738678, 'epoch': 5.0}
+Training completed. Model saved at /users/eleves-b/2022/mathias.perez/Desktop/JuridixAssistant/fine_tuning_bloom_v4
