@@ -3,7 +3,7 @@ import json
 import os
 
 # Define file paths
-json_file = "ft_T5/synthetic_dataset.json"
+json_file = "ft_T5/data/reformulation_dataset_intermediate_5350.json"
 train_csv_file = "ft_T5/train_dataset.csv"
 val_csv_file = "ft_T5/val_dataset.csv"
 test_csv_file = "ft_T5/test_dataset.csv"
@@ -44,7 +44,7 @@ for doc_type, group in df.groupby("type"):
     remaining = group.drop(test_group.index)
     
     # From the remaining, sample 20/90 (~22.22%) for validation
-    val_group = remaining.sample(frac=(0.2 / 0.9), random_state=42)
+    val_group = remaining.sample(frac=0.1, random_state=42)
     
     # The rest becomes the training set
     train_group = remaining.drop(val_group.index)
