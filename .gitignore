@@ -1,5 +1,5 @@
 data/
 train_data/
-models_cache/
+*/models_cache/
 ft_T5/csv_logs
 ft_T5/lightning_logs
