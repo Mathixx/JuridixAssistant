@@ -3,10 +3,10 @@ import json
 import os
 
 # Define file paths
-json_file = "ft_T5/data/reformulation_dataset_intermediate_5350.json"
-train_csv_file = "ft_T5/train_dataset.csv"
-val_csv_file = "ft_T5/val_dataset.csv"
-test_csv_file = "ft_T5/test_dataset.csv"
+json_file = "ft_T5/data/ft_refor/reformulation_dataset_type2.json"
+train_csv_file = "ft_T5/train_dataset2.csv"
+val_csv_file = "ft_T5/val_dataset2.csv"
+test_csv_file = "ft_T5/test_dataset2.csv"
 
 # Load JSON file
 with open(json_file, "r", encoding="utf-8") as f:
